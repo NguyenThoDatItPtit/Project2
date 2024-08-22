@@ -3,9 +3,32 @@ package com.javaweb.repository.entity;
 
 
 public class BuildingEntity {
+	private Long id;
 	private String name;
 	private String street;
 	private String ward;
+	private Long  districtid;
+	private Long floorarea;
+	private Long rentprice;
+	private String servicefee;
+	private Long brokeragefee;
+	private String managername;
+	private String managerphonenumber;
+	private Long numberofbasement;
+	
+	
+	public Long getNumberofbasement() {
+		return numberofbasement;
+	}
+	public void setNumberofbasement(Long numberofbasement) {
+		this.numberofbasement = numberofbasement;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public String getName() {
 		return name;
 	}
@@ -24,6 +47,47 @@ public class BuildingEntity {
 	public void setWard(String ward) {
 		this.ward = ward;
 	}
-	
+	public Long getDistrictid() {
+		return districtid;
+	}
+	public void setDistrictid(Long districtid) {
+		this.districtid = districtid;
+	}
+	public Long getFloorarea() {
+		return floorarea;
+	}
+	public void setFloorarea(Long floorarea) {
+		this.floorarea = floorarea;
+	}
+	public Long getRentprice() {
+		return rentprice;
+	}
+	public void setRentprice(Long rentprice) {
+		this.rentprice = rentprice;
+	}
+	public String getServicefee() {
+		return servicefee;
+	}
+	public void setServicefee(String servicefee) {
+		this.servicefee = servicefee;
+	}
+	public Long getBrokeragefee() {
+		return brokeragefee;
+	}
+	public void setBrokeragefee(Long brokeragefee) {
+		this.brokeragefee = brokeragefee;
+	}
+	public String getManagername() {
+		return managername;
+	}
+	public void setManagername(String managername) {
+		this.managername = managername;
+	}
+	public String getManagerphonenumber() {
+		return managerphonenumber;
+	}
+	public void setManagerphonenumber(String managerphonenumber) {
+		this.managerphonenumber = managerphonenumber;
+	}
 	
 }

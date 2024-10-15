@@ -1,4 +1,4 @@
-package com.javaweb.api;
+package main.java.com.javaweb.api;
 
 import java.util.List;
 import java.util.Map;
